@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Details</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="myScript.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="col-md-8 col-md-offset-2 col-sm-10 
+                  col-sm-offset-1 col-xs-12" id="center">
+        <h2>
+          Here's what you bought
+        </h2>
+        <p>Package Type: <%= type %></p>
+        <p>Package Weight: <%= weight%></p>
+        <p>Total Price: $<%= price %></p>
+      </div>
+    </div>
+  </body>
+</html>
